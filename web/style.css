@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;800;900&family=Roboto+Mono:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+body{
+    font-family: 'Roboto Mono',monospace;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+
+}
+.header{
+
+    
+}
+.header-menu{
+    background-color:#ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+
+}
+.header-right{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-menu-left{
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+.item-menu >*{
+    text-decoration: none;
+    color:black;
+}
+.active{
+    display:block !important;
+}
+.remove{
+    display: none;
+}
+.banner-image{
+    height:400px;
+    object-fit:cover;
+    display: block;
+    
+}
+.banner-img{
+      width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 0 10px;
+
+}
+.banner-new{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news{
+    width: 500px;
+}
+.new-item{
+    margin-top: 10px;
+    display: flex;
+}
+.icon-nav{
+    width: 40px;
+    display: block;
+
+}
+.menu-left{
+padding: 0;
+}
+.item-menu-left{
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    gap:10px;
+    background-color: #ccc;
+    align-items: center;
+    position: relative;
+
+}
+.icon-arrow{
+    position: absolute;
+    right: 3px;
+    color:black;
+    font-weight: bold;
+}
+.item-menu-left:hover{
+    background-color: #5645;
+}
+.item-cate{
+    padding: 5px;
+    width: 85px;
+    text-align: center;
+}
+.item-cate:hover{
+    background-color: red;
+    cursor: pointer;
+    color:white;
+}
+.cate-product{
+    background-color: #ccc;
+}
+.item-cate a{
+    text-decoration: none;
+    color:black;
+    
+}
+.menu-cate-product li a:hover{
+color:white;
+}
+.main{
+    display: flex;
+    border:1px solid ;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.main-left{
+    width:400px;
+
+}
+.menu-left{
+    border: 1px solid;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:10px;
+    background-color: red;
+}
+.img-new{
+    width:50px;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-new{
+    height: 100px;
+    object-fit: cover;
+    display: block;
+
+}
+.nav i{
+    margin-left: 10px;
+}
+.img-new{
+    width: 70px;
+    height: 70px;
+}
+.new-bottom{
+
+}
+.text-a{
+    text-decoration: none;
+    color:black
+}
+.search{
+    border: 1px solid;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.search input{
+    border:none;
+    outline: none;
+    width: 250px;
+}
+.icon-phone{
+    display: block;
+    padding-top:8px ;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;  
+}
+
+.contact{
+    text-align: center;
+    position: relative;
+}
+.contact b{
+    border: 1px solid;
+    border-left: none;
+    padding:10px;
+    position: absolute;
+    left:26px;
+    top:-6px;
+    border-radius: 10px;
+   
+}
+
+.login{
+    border:1px solid;
+    padding: 10px;
+    border-radius:10px;
+}
+.cart{
+    border: 1px solid;
+    padding:10px;
+    border-radius: 10px;
+}
+
+
